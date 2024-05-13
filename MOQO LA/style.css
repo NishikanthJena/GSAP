@@ -1,0 +1,121 @@
+@font-face {
+    font-family: head;
+    src: url(./Heading-Now-Variable.ttf);
+}
+
+@font-face {
+    font-family: monument;
+    src: url(./MonumentExtended-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family:'Segoe UI'; */
+    
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    /* background-color: #fff ; */
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    /* background-color: #514545; */
+    background-color: black;
+    overflow: hidden;
+}
+
+#nav {
+    /* border-bottom: 1px solid #dadada; */
+    height: 60px;
+    width: 100%;
+    padding: 0 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav h2 {
+    font-weight: 500;
+    font-family:monument;
+
+}
+
+#nav-part2 {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+h4{
+    font-weight: 200;
+    font-family:monument;
+}
+
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loader h1{
+    font-size: 100px;
+    font-family:monument;
+    font-weight: 100;
+}
+
+/* #page1 h3 {
+    font-size: 10vw;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: head;
+    white-space: nowrap;
+    font-stretch: 250%;
+    font-weight:999; */
+    /* top: 50%; */
+/* } */
+
+/* h3 {
+    font-size:10vw;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: head;
+    white-space: nowrap;
+    font-stretch: 250%;
+    font-weight: 999;
+} */
+
+
+#page1 h1 {
+    font-size: 35vw;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: head;
+    white-space: nowrap;
+    font-stretch: 250%;
+    font-weight:999;
+    /* top: 50%; */
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+}
